@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main 
+{
+    
+    height: 50vh;
+    width: auto;
+    margin: 20px 200px;
+}
+
+input[type=text]
+{
+    text-align: center;
+    height: 25px;
+    width: 250px;
+    /* border: none;
+    
+    border-top: 3px solid rgb(199, 198, 198);
+    border-left: 3px solid rgb(199, 198, 198);
+    border-right: 3px solid black;
+    border-bottom: 3px solid black; */
+}
+
+
+#btn1
+{
+    
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    background: #00ff80;
+    color: white;
+    font-weight: bolder;
+}
+
+
+#btn2
+{
+    
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    background: #00ccff;
+    color: white;
+    font-weight: bolder;
+}
+

@@ -1,0 +1,121 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:auto;
+    width: auto;
+    margin: 20px;
+}
+
+
+.main-wrapper .table
+{
+    height: 200px;
+    width: auto;
+    margin: 10px;
+    top: 10px;
+    justify-content: center;
+    
+} 
+
+
+.table2
+{
+    height: 200px;
+    width: auto;
+    margin: 10px;
+    top: 10px;
+    justify-content: center;
+    
+} 
+
+.main-wrapper .table th
+{
+    
+    background: white;
+    font-size: 25px;
+}    
+
+
+.main-wrapper .table td
+{
+    font-size: 20px;
+    background: white;
+}    
+
+.main-wrapper .cust_form
+{
+    margin: 60px;
+   bottom: 10px;
+} 
+
+
+.btn1
+{
+    
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    background: #00ff80;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.btn2
+{
+    
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    background: #00ccff;
+    color: white;
+    font-weight: bolder;
+}
+
+.edit-btn
+{
+    height: 30px;
+    width: 60px;
+    background: #00ccff;
+    color: white;
+}
+
+.delete-btn
+{
+    height: 30px;
+    width: 60px;
+    background: #ff2525;
+    color: white;
+}
+
+
+.display-btn
+{
+    height: 30px;
+    width: 60px;
+    background: #8400ff;
+    color: white;
+}
+
+input[type=text],
+input[type=email],
+input[type=file]
+{
+    height: 25px;
+    width: 250px;
+    outline: none;
+}
+
+.btn1:hover, .btn2:hover
+{
+    box-shadow: 12px 12px 15px #5e5d5d;
+
+}    

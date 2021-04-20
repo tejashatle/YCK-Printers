@@ -1,0 +1,128 @@
+
+#background
+{
+    height: 120vh;
+}    
+
+
+/* =========================================navigation bar=================================== */
+ul
+{
+    display: none;
+}
+
+ul li a{
+    font-size: 20px;
+}
+#menu-toggle
+{
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    color: #069370;
+}
+
+#menu-toggle:before
+{
+    content: '\f0c9';
+    font-family: fontAwesome;
+    line-height: 40px;
+    
+}
+
+
+
+
+
+#menu-toggle.active:after
+{
+    content: '\f05c';
+    
+}
+
+
+ul.active
+{
+    display: block;
+    width: 100%;
+}	
+
+nav.active.ul
+{
+    display: block;
+    margin: 10px;
+}	
+
+/* =========================================About Us =================================== */
+.container
+{	
+    margin-top: 5px;
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}	
+
+
+.abt-us
+{
+    width: auto;
+    line-height: 20px;
+} 
+
+
+.main-image
+{
+    width: auto;
+}
+
+
+#abt-img
+{
+    height: 50%;
+    width: 50%;
+    margin-top: 20px;
+    text-align: justify;
+    /* display: none; */
+}
+
+/* ========================================What we do========================================== 	 */
+
+.wwd .wwd-cont .wwd-cont3, .wwd .wwd-cont .wwd-cont4
+{
+display: none;
+}
+/* 
+
+.wwd .wwd-main-cont
+{
+.wwd-cont .wwd-cont1, .wwd-cont .wwd-cont2, .wwd-cont .wwd-cont3, .wwd-cont .wwd-cont4
+{
+    width: 170px;
+    height: 250px;
+}     */
+
+
+/* ========================================Footer========================================== 	 */
+.content .sm
+{
+    margin-left: 0px;
+}    
+
+.content .sm a
+{
+    margin-bottom: 50px;
+    overflow: hidden;
+    
+}    
+
+.content .addr
+{
+    margin-right: 0px;
+}    

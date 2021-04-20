@@ -1,0 +1,108 @@
+/* =======================================================Tools We Use========================================= */
+.twu .heading h2
+{
+    text-align: center;
+}
+
+
+.twu .heading h3
+{
+    margin: 10px 40px;
+
+    justify-content: justify;
+}
+
+
+.twu .heading h3 .slogan
+{
+    font-weight: bolder;
+}
+
+
+.twu .main-content 
+{
+    display: flex;
+
+}
+
+
+.twu .main-content 
+{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: auto;
+    overflow-wrap: break-word; 
+    flex-flow: row wrap;
+    margin: 30px 40px 20px 40px;
+     
+}
+
+.twu .main-content .content1,
+.twu .main-content .content2,
+.twu .main-content .content3,.content4,.content5,.content6 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    
+} 
+
+.twu .main-content img 
+{
+    margin-top: 10px; 
+    height: 100px;
+    width: 100px;
+}
+
+.twu .main-content .description
+{
+    color: white;
+}
+
+/* ================================================Project We Did Till Now========================================= */
+
+.ptn h2 
+{
+    text-align: center;
+}
+
+.container
+{
+    display: flex;
+    
+    flex-flow: row wrap;
+}
+
+.main-container
+{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    background: rgb(176, 176, 176);
+    height: auto;
+    width: 250px;
+    text-align: center;
+}
+
+.main-container:hover
+{
+    box-shadow: 10px 10px 12px #6f6e6e;
+    
+}
+
+.main-container .image img
+{
+    height: 200px;
+    width: 230px;
+    margin: 5px 5px 0px 5px;
+    border: 1px solid black;
+}
+
+.main-container .content-head
+{
+    border-bottom: 2px solid red;
+    margin: 5px 30px 3px 30px;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-wrapper
+{
+    height: 100vh;
+	background: linear-gradient(57deg,#1e4d92,#00ff80); 
+    overflow: auto;  
+}
+
+.outer
+{
+    
+    height: 40vh;
+    width: auto;
+    margin: 180px 250px;
+    background: white;
+    border-radius: 20px;
+}
+
+.outer .form
+{
+    padding-top: 10px;
+}
+
+
+.outer h3
+{
+    padding-top: 70px;
+    color: #1e4d92;
+}
+
+input[type=email],
+input[type=text],
+input[type=password]
+{
+    height: 30px;
+    width: 300px;
+    font-size: 15px;
+    border: 1px solid black;
+    /* box-shadow: 9px 9px 10px #acaaaa; */
+
+}
+
+
+.btn1
+{
+    height: 35px;
+    width: 120px;
+    background: #00ff80;
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+    border: none;
+
+} 
+
+
+.btn2
+{
+    height: 35px;
+    width: 120px;
+    background: #00ccff;
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+    border: none;
+
+} 
+
+.btn1:hover
+{
+    box-shadow: 8px 8px 10px #747272;
+    background: white;
+    color: #00ff80;
+    font-weight: bolder; 
+}
+
+
+.btn2:hover
+{
+    box-shadow: 8px 8px 10px #747272;
+    background: white;
+    color: #00ccff;
+    font-weight: bolder; 
+
+}
+
+a
+{
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    
+        function calculate()
+        {
+            var total=0;
+            var maths = parseInt(document.getElementById("maths").value);
+            var science = parseInt(document.getElementById("science").value);
+            total=(maths+science);
+            document.getElementById("result").innerHTML="Hey";
+            alert(total);
+
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        enter maths marks <input type="text" name="maths" id="maths"><br><br><br>
+        enter science marks <input type="text" name="science" id="science"><br><br><br>
+        <input type="text" name="result" id="result" value="tejas"><br><br><br>
+        
+        <input type="submit" name="submit" value="Submit" id='t1' onclick="calculate()"><br><br><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,58 @@
+.main-wrapper
+{
+    height: 100vh;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    text-align: center;
+    background: white; 
+}
+
+.main-wrapper h1
+{
+    color: rgb(148, 22, 0);
+}    
+
+
+.main-wrapper .buttons
+{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: auto;
+    margin: 15px;
+    
+     
+}
+
+.main-wrapper .buttons .btn 
+{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    outline: none;
+    background: #1e4d92;
+    color: white;
+
+}    
+
+
+
+
+
+.main-wrapper .buttons .btn:hover
+{
+    box-shadow: 8px 8px 12px #bed8ff;
+
+} 
+
+.main-iframe iframe
+{
+    height: auto;
+    width: auto;
+}       
+.main-iframe iframe
+{
+    margin: 0px 50px;
+}
